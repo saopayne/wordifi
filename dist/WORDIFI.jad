@@ -1,0 +1,8 @@
+MIDlet-Name: WORDIFI
+MIDlet-Version: 1.1.15
+MIDlet-Vendor: Kbluue Inc.
+MIDlet-Jar-URL: WORDIFI.jar
+MIDlet-Jar-Size: 98141
+MIDlet-Icon: /icon.png
+MIDlet-1: WORDIFI,/icon.png,Wordifi
+MIDlet-Delete-Confirm: Are you sure

@@ -1,0 +1,250 @@
+title {
+    background-color: #9393ff;
+    layout: center | expand;
+    font-color:white;
+    font-size:large;
+}
+
+menu {
+    menubar-color: #9393ff;
+    font-color: white;
+    font-size: small;
+}
+
+menuItem {
+    background-color: white;
+    font-color: #9393ff;
+    layout: left | expand;
+    font-size: small;
+    border-color: #9393ff;
+}
+
+menuItem:hover {
+    background-color: #9393ff;
+    font-color: white;
+    border-color: white;
+    layout: left | expand;
+}
+
+menuItem:pressed {
+    background-color: #9393ff;
+    font-color: white;
+    border-color: white;
+    layout: center | expand;
+}
+
+.lists {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #9393ff;
+    font-size: large;
+    font-color: white;
+    border-width: 4px;
+    border-color: white;
+    margin: 3px;
+}
+
+.lists:hover {
+    layout: left | expand;
+    background-color: white;
+    font-color: #9393ff;
+    border-width: 4px;
+    border-color: white;
+}
+
+.lists:pressed {
+    layout:left | expand;
+    background-color: white;
+    font-color: #9393ff;
+    font-size: small;
+    padding: 10px;
+    border-width: 4px;
+    border-color: #9393ff;
+}
+
+.listCommand {
+    columns: 2;
+    padding: 10px
+    padding-top: 70px;
+    layout: left;
+    background-color: #9393ff;
+    font-size: 20px;
+    font-color: white;
+    border-width: 2px;
+    border-color: white;
+}
+
+.welcome1{
+    layout: expand | center;
+    background-color: white;
+    font-color: #9393ff;
+    font-size: 36px;
+    padding: 10px;
+    screen-change-animation: fade ;
+}
+
+.welcome2{
+    layout: expand | center;
+    background-color: white;
+    /*background-color: #606060;*/
+    font-color: #9393ff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.welcome3{
+    layout: expand | center;
+    background-color: white;
+    /*background-color: #606060;*/
+    font-color: #9393ff;
+    font-size: 96px;
+    padding: 10px;
+}
+
+.welcome4{
+    layout: expand | center;
+    background-color: white;
+    /*background-color: #606060;*/
+    font-color: #9393ff;
+    font-size: 16px;
+    padding-top: 15;
+}
+
+.listBackground {
+    layout: expand | center;
+    background-color: #606060;
+}
+
+.listScore {
+    layout: expand | center;
+    background-color: #606060;
+    columns: 2;
+}
+
+.score {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #606060;
+    font-size: 16px;
+    font-color: white;
+}
+.score:hover {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #606060;
+    font-size: 16px;
+    font-color: white;
+}
+.score:pressed {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #606060;
+    font-size: 16px;
+    font-color: white;
+}
+
+.scoret {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #606060;
+    font-size: 32px;
+    font-color: white;
+}
+.scoret:hover {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #606060;
+    font-size: 32px;
+    font-color: white;
+}
+.scoret:pressed {
+    layout: left | expand;
+    padding: 10px;
+    background-color: #606060;
+    font-size: 32px;
+    font-color: white;
+}
+
+.question {
+    layout: expand | center;
+    font-color: #9393ff;
+    font-size:20px;
+}
+
+.textBox {
+    layout: expand | center;
+    border-width: 2px;
+    background-color: #606060;
+}
+
+.itemInput {
+    padding : 2;
+    background-color: silver;
+    textfield-direct-input:true;
+    textfield-show-length:true;
+    textfield-direct-input:true;
+    
+}
+
+.sav {
+    layout: expand | center;
+    background-color: black;
+    font-color: red;
+}
+
+.otherForms {
+    layout: expand | left;
+    background-color: white;
+    font-color: blue;
+}
+.ltk {
+    layout: expand | left;
+    background-color: white;
+    font-color: blue;
+    font-size: 26px;
+}
+
+.mailForm {
+	padding: 5;
+	padding-left: 5;
+	padding-right: 5;
+	background-color: black;
+	layout: horizontal-expand | horizontal-center | top;
+	//#if !polish.useScrollBar
+		scrollindicator-up-image: url( arrowUp.png );
+		scrollindicator-down-image: url( arrowDown.png );
+	//#endif
+	//#if polish.midp2
+		screen-change-animation: bottom;
+	//#endif
+	//#if polish.api.mmapi
+		title-style: .mailFormTitle;
+	//#endif
+}
+
+.mailAlert extends .mailForm {
+	title-style: none;
+	margin-right: 10;
+	margin-left: 10;
+	padding-left: 5;
+	padding-right: 5;
+	layout: horizontal-center | bottom | horizontal-shrink | vertical-shrink;
+	repaint-previous-screen: true;
+	//#if polish.midp2 || polish.api.nokia-ui
+		border {
+			type: drop-shadow;
+			width: 6;
+			inner-color: white; 
+			outer-color: white;
+			orientation: top-right;
+		}
+	//#endif
+	//#if polish.midp2
+		screen-change-animation: bottom;
+	//#endif
+	background-color: white;
+}
+
+alertcontent {
+	font-color: #9393ff;
+}
