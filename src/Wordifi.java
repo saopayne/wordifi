@@ -13,7 +13,7 @@ import javax.microedition.rms.RecordStoreException;
 
 
 /**
- * @author SAOPAYNE+KENNEDY+OLAIDE
+ * @author saopayne
  */
 public class Wordifi extends MIDlet implements CommandListener {
     
