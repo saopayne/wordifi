@@ -729,27 +729,27 @@ public class Wordifi extends MIDlet implements CommandListener {
         }
     }
     
-    public String getSpaces(int lenght){
+    public String getSpaces(int length){
         String spaces = "";
-        if (lenght == 12){
+        if (length == 12){
             spaces = "        ";
-        } else if (lenght == 11){
+        } else if (length == 11){
             spaces = "         ";
-        } else if (lenght == 10){
+        } else if (length == 10){
             spaces = "          ";
-        } else if (lenght == 9){
+        } else if (length == 9){
             spaces = "           ";
-        } else if (lenght == 8){
+        } else if (length == 8){
             spaces = "            ";
-        } else if (lenght == 7){
+        } else if (length == 7){
             spaces = "             ";
-        } else if (lenght == 6){
+        } else if (length == 6){
             spaces = "              ";
-        } else if (lenght == 5){
+        } else if (length == 5){
             spaces = "               ";
-        } else if (lenght == 4){
+        } else if (length == 4){
             spaces = "                ";
-        } else if (lenght == 3){
+        } else if (length == 3){
             spaces = "                 ";
         } return spaces;
     }
